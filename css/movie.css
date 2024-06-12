@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.waku {
+  max-width: 1200px;
+  margin: 60px auto;
+  font-weight: bold;
+  font-family:"Noto Serif JP", serif;}
+
+
+/* ここからクリック出たり消えたりする要素 */
+
+/* 何か知らんけどいる */
+.header-inner {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
+  position: relative;
+}
+
+/* 開く枠 header-site-menu */
+.review {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #000;
+  background-color: #b47878;
+  padding-top: 550px;
+  padding-bottom: 50px;
+  padding-left: 60psx;
+  padding-right: 60px;
+  display: none;
+  width: 1000px;
+  background: url(../img/the-dark-night-still.jpg) top center / 1000px 500px no-repeat;
+}
+
+.review.show {
+  display: block;
+}
+
+/* ジャケット一覧のそれぞれ toggle-menu-button */
+.jacket {
+  display: block;
+  width: 200px;
+  height: 350px;
+  background-image: url(../img/the-dark-knight.jpg);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+
+/* ここまで出たり消えたりする要素 */
